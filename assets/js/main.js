@@ -139,9 +139,9 @@ jQuery(document).ready(function($){
   });
 
   // Preloader js
-  $(window).load(function() {
-    $(".site_preloader").fadeOut("slow");;
-  });
+  // $(window).load(function() {
+  //   $(".site_preloader").fadeOut("slow");;
+  // });
 
   //Dropdown click enable
   jQuery('.navbar-nav > li > a.dropdown-toggle').unbind('click').click(function() {
