@@ -1,0 +1,888 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"/>
+    <title>MOPO | Travel Landing Page</title>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="assets/css/font-awesome.css" />
+    <!-- Animated on scroll CSS -->
+    <link rel="stylesheet" href="assets/css/aos.min.css" />
+    <!-- Jquery UI CSS -->
+    <link rel="stylesheet" href="assets/css/jquery-ui.css" />
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <!-- End of head -->
+
+  <body>
+    <div class="site_preloader"></div>
+    <!-- End of preloader -->
+
+    <!-- Header area start -->
+	 <header class="area main-header">
+     <!-- Header section start -->
+      <div class="header-section area">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/header_logo.png" alt="Logo-img" class="img-fluid">
+            </a>
+            <!-- End of logo -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end">
+              <ul class="navbar-nav header-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reserve.html">Reservation</a></li>
+            	  <li class="dropdown">
+            		  <a class="dropdown-toggle" href="destination.html" data-toggle="dropdown">Destinations</a>
+              		  <ul class="dropdown-menu">
+                      <li><a href="#">Indonesia</a></li>
+                      <li><a href="#">Malaysia</a></li>
+                      <li><a href="#">Thailand</a></li>
+                      <li><a href="#">Marina</a></li>
+                    </ul>
+                    <!-- End of dropdown -->
+            		</li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#review">Reviews</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <!-- End of header menu -->
+          </nav>
+          <!-- End of nav -->
+        </div>
+        <!--End of container-->
+      </div>
+      <!--End of header-->
+    </header>
+    <!--End of header-->
+
+    <main class="area">
+      <div class="hero-section cus_section-overlay area">
+        <div class="container">
+          <div class="hero-content">
+            <div data-aos="fade-up" class="hero-content-inner">
+              <h2 class="hero-title">Discover the World You Never Seen</h2>
+              <a href="#" class="cus_cta-btn">Our Tour Packages</a>
+            </div>
+            <!-- End of hero content inner -->
+          </div>
+          <!-- End of hero content -->
+        </div>
+        <!--End of container-->
+      </div>
+      <!--End of banner-->
+
+      <div class="booking-section cus_section-padding area">
+        <div class="container">
+          <div class="booking-content">
+            <form class="home_booking-form" action="index.html" method="post">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div data-aos="zoom-in" class="inp-group">
+                    <label>Destination</label>
+                    <div class="inp-field">
+                      <input type="text" class="form-control" placeholder="Where are you going">
+                      <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <!-- End of inp filed -->
+                  </div>
+                  <!-- End of inp group -->
+                </div>
+                <!-- End of col -->
+                <div class="col-lg-3">
+                  <div data-aos="zoom-in" class="inp-group">
+                    <label>Departure</label>
+                    <div class="inp-field">
+                      <input type="text" id="datepicker" class="form-control" placeholder="Select a date">
+                      <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <!-- End of inp filed -->
+                  </div>
+                  <!-- End of inp group -->
+                </div>
+                <!-- End of col -->
+                <div class="col-lg-3">
+                  <div data-aos="zoom-in" class="inp-group">
+                    <label>Person</label>
+                    <div class="inp-field">
+                      <select class="form-control">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                      </select>
+                    </div>
+                    <!-- End of inp filed -->
+                  </div>
+                  <!-- End of inp group -->
+                </div>
+                <!-- End of col -->
+                <div class="col-lg-3">
+                  <div data-aos="zoom-in" class="inp-group">
+                    <label style="opacity: 0; visibility:hidden;">Search</label>
+                    <button type="submit" class="cus_cta-btn">Search</button>
+                    <!-- End of inp filed -->
+                  </div>
+                  <!-- End of inp group -->
+                </div>
+                <!-- End of col -->
+              </div>
+              <!-- End of row -->
+            </form>
+            <!-- End of form -->
+          </div>
+          <!-- End of booking content -->
+        </div>
+        <!-- End of container -->
+      </div>
+      <!-- End of booking section -->
+
+      <div class="popular-tour-section cus_section-padding area">
+        <div class="container">
+          <div data-aos="fade-up" class="section-header text-center">
+            <h2 class="section-heading heading-bar">Popular Tours</h2>
+          </div>
+          <!-- End of section header -->
+          <div class="popular-tour-content">
+            <div class="row">
+              <div class="col-lg-4">
+                <div data-aos="fade-up" class="popular-tour-boxes">
+                  <div class="place-img">
+                    <a href="#"><img src="assets/img/popular_img1.jpg" alt="popular tour img" class="img-fluid"></a>
+                  </div>
+                  <!-- End of media -->
+                  <div class="tour-info">
+                    <a href="#"><h2 class="tour-title">Hindu Temple in Bali, Indonesia</h2></a>
+                    <ul>
+                      <li>
+                        <span><i class="far fa-clock"></i> 7 Days</span>
+                        <span>From</span>
+                      </li>
+                      <li>
+                        <span><i class="far fa-user"></i> 2 Persons</span>
+                        <span class="price">$750</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- End of tour info -->
+                </div>
+                <!-- End of popular tour boxes -->
+              </div>
+              <!-- End of col -->
+              <div class="col-lg-4">
+                <div data-aos="fade-up" data-aos-delay="100" class="popular-tour-boxes">
+                  <div class="discount">
+                    <p>20% Off</p>
+                  </div>
+                  <!-- End of discount -->
+                  <div class="place-img">
+                    <a href="#"><img src="assets/img/popular_img2.jpg" alt="popular tour img" class="img-fluid"></a>
+                  </div>
+                  <!-- End of media -->
+                  <div class="tour-info">
+                    <a href="#"><h2 class="tour-title">Kuala Lumpur, Malaysia</h2></a>
+                    <ul>
+                      <li>
+                        <span><i class="far fa-clock"></i> 5 Days</span>
+                        <span class="offer-price">$750</span>
+                      </li>
+                      <li>
+                        <span><i class="far fa-user"></i> 1 Persons</span>
+                        <span class="price">$600</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- End of tour info -->
+                </div>
+                <!-- End of popular tour boxes -->
+              </div>
+              <!-- End of col -->
+              <div class="col-lg-4">
+                <div data-aos="fade-up" data-aos-delay="200" class="popular-tour-boxes">
+                  <div class="place-img">
+                    <a href="#"><img src="assets/img/popular_img3.jpg" alt="popular tour img" class="img-fluid"></a>
+                  </div>
+                  <!-- End of media -->
+                  <div class="tour-info">
+                    <a href="#"><h2 class="tour-title">Extreme North, Vietnam</h2></a>
+                    <ul>
+                      <li>
+                        <span><i class="far fa-clock"></i> 7 Days</span>
+                        <span>From</span>
+                      </li>
+                      <li>
+                        <span><i class="far fa-user"></i> 2 Persons</span>
+                        <span class="price">$750</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- End of tour info -->
+                </div>
+                <!-- End of popular tour boxes -->
+              </div>
+              <!-- End of col -->
+              <div class="col-lg-4">
+                <div data-aos="fade-up" data-aos-delay="300" class="popular-tour-boxes">
+                  <div class="discount">
+                    <p>20% Off</p>
+                  </div>
+                  <!-- End of discount -->
+                  <div class="place-img">
+                    <a href="#"><img src="assets/img/popular_img4.jpg" alt="popular tour img" class="img-fluid"></a>
+                  </div>
+                  <!-- End of media -->
+                  <div class="tour-info">
+                    <a href="#"><h2 class="tour-title">Kuala Lumpur, Malaysia</h2></a>
+                    <ul>
+                      <li>
+                        <span><i class="far fa-clock"></i> 5 Days</span>
+                        <span class="offer-price">$750</span>
+                      </li>
+                      <li>
+                        <span><i class="far fa-user"></i> 1 Persons</span>
+                        <span class="price">$600</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- End of tour info -->
+                </div>
+                <!-- End of popular tour boxes -->
+              </div>
+              <!-- End of col -->
+              <div class="col-lg-4">
+                <div data-aos="fade-up" data-aos-delay="400" class="popular-tour-boxes">
+                  <div class="place-img">
+                    <a href="#"><img src="assets/img/popular_img5.jpg" alt="popular tour img" class="img-fluid"></a>
+                  </div>
+                  <!-- End of media -->
+                  <div class="tour-info">
+                    <a href="#"><h2 class="tour-title">Phi Phi Islands, Thailand</h2></a>
+                    <ul>
+                      <li>
+                        <span><i class="far fa-clock"></i> 7 Days</span>
+                        <span>From</span>
+                      </li>
+                      <li>
+                        <span><i class="far fa-user"></i> 2 Persons</span>
+                        <span class="price">$750</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- End of tour info -->
+                </div>
+                <!-- End of popular tour boxes -->
+              </div>
+              <!-- End of col -->
+              <div class="col-lg-4">
+                <div data-aos="fade-up" data-aos-delay="500" class="popular-tour-boxes">
+                  <div class="place-img">
+                    <a href="#"><img src="assets/img/popular_img6.jpg" alt="popular tour img" class="img-fluid"></a>
+                  </div>
+                  <!-- End of media -->
+                  <div class="tour-info">
+                    <a href="#"><h2 class="tour-title">Eiffel Tower  in Paris, France</h2></a>
+                    <ul>
+                      <li>
+                        <span><i class="far fa-clock"></i> 7 Days</span>
+                        <span>From</span>
+                      </li>
+                      <li>
+                        <span><i class="far fa-user"></i> 2 Persons</span>
+                        <span class="price">$750</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- End of tour info -->
+                </div>
+                <!-- End of popular tour boxes -->
+              </div>
+              <!-- End of col -->
+            </div>
+            <!-- End of row -->
+          </div>
+          <!-- End of popular tour content -->
+        </div>
+        <!-- End of container -->
+      </div>
+      <!-- End of popular tour -->
+
+      <div class="why_us-section cus_section-padding area">
+        <div class="container">
+          <div data-aos="fade-down" class="section-header text-center">
+            <h2 class="section-heading heading-bar">Why Choose Us</h2>
+          </div>
+          <!-- End of section header -->
+          <div class="why_us-content-box area">
+            <div class="row">
+              <div class="col-md-4">
+                <div data-aos="fade-left" class="why_us-box text-center">
+                  <div class="icon">
+                    <img src="assets/img/why_us-icon1.png" alt="icon" class="img-fluid">
+                  </div>
+                  <h2>Best Price Guaranteed</h2>
+                  <p>Travel is the movem people between distant geographic locations.</p>
+                  <!-- End of icon -->
+                </div>
+                <!-- End of why us box -->
+              </div>
+              <!-- End of col -->
+              <div class="col-md-4">
+                <div data-aos="fade-up" data-aos-delay="200" class="why_us-box text-center">
+                  <div class="icon">
+                    <img src="assets/img/why_us-icon2.png" alt="icon" class="img-fluid">
+                  </div>
+                  <h2>Friendly Guides</h2>
+                  <p>Travel is the movem people between distant geographic locations.</p>
+                  <!-- End of icon -->
+                </div>
+                <!-- End of why us box -->
+              </div>
+              <!-- End of col -->
+              <div class="col-md-4">
+                <div data-aos="fade-right" data-aos-delay="300" class="why_us-box text-center">
+                  <div class="icon">
+                    <img src="assets/img/why_us-icon3.png" alt="icon" class="img-fluid">
+                  </div>
+                  <h2>Travel Insuarence</h2>
+                  <p>Travel is the movem people between distant geographic locations.</p>
+                  <!-- End of icon -->
+                </div>
+                <!-- End of why us box -->
+              </div>
+              <!-- End of col -->
+            </div>
+            <!-- End of row -->
+          </div>
+          <!-- End of why us -->
+        </div>
+        <!-- End of container -->
+      </div>
+      <!-- End of why us section -->
+
+      <div class="destination_section cus_section-padding area">
+        <div class="container">
+          <div  data-aos="fade-down" class="section-header text-center">
+            <h2 class="section-heading heading-bar">Popular Destinations</h2>
+          </div>
+          <!-- End of section header -->
+          <div class="destination_content area">
+            <div class="row">
+              <div class="col-lg-8">
+                <div data-aos="fade-right" class="destination_content-box large">
+                  <a href="#" class="destination_details-link"></a>
+                  <div class="destination_img">
+                    <img src="assets/img/destination_img1.jpg" alt="destination img" class="img-fluid">
+                  </div>
+                  <!-- End of img -->
+                  <div class="destination_details">
+                    <span>20 Tours</span>
+                    <h2 class="destination_place">India</h2>
+                  </div>
+                  <!-- End of details -->
+                </div>
+                <!-- End of destination content box -->
+              </div>
+              <!-- End of col -->
+              <div class="col-lg-4">
+                <div data-aos="fade-left" data-aos-delay="200" class="destination_content-box large">
+                  <a href="#" class="destination_details-link"></a>
+                  <div class="destination_img">
+                    <img src="assets/img/destination_img2.jpg" alt="destination img" class="img-fluid">
+                  </div>
+                  <!-- End of img -->
+                  <div class="destination_details">
+                    <span>12 Tours</span>
+                    <h2 class="destination_place">Dubai</h2>
+                  </div>
+                  <!-- End of details -->
+                </div>
+                <!-- End of destination content box -->
+              </div>
+              <!-- End of col -->
+              <div class="col-lg-4">
+                <div data-aos="fade-right" data-aos-delay="200" class="destination_content-box">
+                  <a href="#" class="destination_details-link"></a>
+                  <div class="destination_img">
+                    <img src="assets/img/destination_img3.jpg" alt="destination img" class="img-fluid">
+                  </div>
+                  <!-- End of img -->
+                  <div class="destination_details">
+                    <span>7 Tours</span>
+                    <h2 class="destination_place">France</h2>
+                  </div>
+                  <!-- End of details -->
+                </div>
+                <!-- End of destination content box -->
+              </div>
+              <!-- End of col -->
+              <div class="col-lg-4">
+                <div data-aos="fade-up" data-aos-delay="300" class="destination_content-box">
+                  <a href="#" class="destination_details-link"></a>
+                  <div class="destination_img">
+                    <img src="assets/img/destination_img4.jpg" alt="destination img" class="img-fluid">
+                  </div>
+                  <!-- End of img -->
+                  <div class="destination_details">
+                    <span>10 Tours</span>
+                    <h2 class="destination_place">Singapore</h2>
+                  </div>
+                  <!-- End of details -->
+                </div>
+                <!-- End of destination content box -->
+              </div>
+              <!-- End of col -->
+              <div class="col-lg-4">
+                <div data-aos="fade-left" data-aos-delay="400" class="destination_content-box">
+                  <a href="#" class="destination_details-link"></a>
+                  <div class="destination_img">
+                    <img src="assets/img/destination_img5.jpg" alt="destination img" class="img-fluid">
+                  </div>
+                  <!-- End of img -->
+                  <div class="destination_details">
+                    <span>15 Tours</span>
+                    <h2 class="destination_place">Thailand</h2>
+                  </div>
+                  <!-- End of details -->
+                </div>
+                <!-- End of destination content box -->
+              </div>
+              <!-- End of col -->
+            </div>
+            <!-- End of row -->
+          </div>
+          <!-- End of destination content -->
+        </div>
+        <!-- End of container -->
+      </div>
+      <!-- End of destination section -->
+
+      <div class="tour_type-section cus_section-padding area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div data-aos="fade-right" class="section-header text-center left">
+                <h2 class="section-heading heading-bar">Tour Types</h2>
+              </div>
+              <!-- End of section header -->
+              <p data-aos="fade-up" data-aos-delay="200">Travel dates back to antiquity where wealthy Greeks and Romans would travel for leisure to their summer homes and villas in cities such as Pompeii and Baiae. While early travel tended to be slower, more dangerous.</p>
+              <p data-aos="fade-up" data-aos-delay="300">Travel dates back to antiquity where wealthy Greeks and Romans would travel for leisure to their summer homes and villas in cities such as Pompeii and Baiae. While early travel tended to be slower, more dangerous.</p>
+            </div>
+            <!-- End of col -->
+            <div class="col-lg-6">
+              <div class="tour_type-carousel site_carousel owl-carousel">
+                <div data-aos="fade-right" class="single_tour-carousel">
+                  <div class="tour_type-img">
+                    <img src="assets/img/tour_type_img1.jpg" alt="tour img" class="img-fluid">
+                  </div>
+                  <h2 data-aos="fade-up" data-aos-delay="200" class="tour_type-title">Adventure Tour</h2>
+                  <a href="#"></a>
+                </div>
+                <!-- End of single tour carousel -->
+                <div data-aos="fade-right" class="single_tour-carousel">
+                  <div class="tour_type-img">
+                    <img src="assets/img/tour_type_img2.jpg" alt="tour img" class="img-fluid">
+                  </div>
+                  <h2 data-aos="fade-up" data-aos-delay="200" class="tour_type-title">Cultural Tour</h2>
+                  <a href="#"></a>
+                </div>
+                <!-- End of single tour carousel -->
+                <div class="single_tour-carousel">
+                  <div class="tour_type-img">
+                    <img src="assets/img/tour_type_img3.jpg" alt="tour img" class="img-fluid">
+                  </div>
+                  <h2 data-aos="fade-up" data-aos-delay="200" class="tour_type-title">Beaches and Islands</h2>
+                  <a href="#"></a>
+                </div>
+                <!-- End of single tour carousel -->
+                <div class="single_tour-carousel">
+                  <div class="tour_type-img">
+                    <img src="assets/img/tour_type_img1.jpg" alt="tour img" class="img-fluid">
+                  </div>
+                  <h2 data-aos="fade-up" data-aos-delay="200" class="tour_type-title">Adventure Tour</h2>
+                  <a href="#"></a>
+                </div>
+                <!-- End of single tour carousel -->
+                <div class="single_tour-carousel">
+                  <div class="tour_type-img">
+                    <img src="assets/img/tour_type_img2.jpg" alt="tour img" class="img-fluid">
+                  </div>
+                  <h2 data-aos="fade-up" data-aos-delay="200" class="tour_type-title">Cultural Tour</h2>
+                  <a href="#"></a>
+                </div>
+                <!-- End of single tour carousel -->
+                <div class="single_tour-carousel">
+                  <div class="tour_type-img">
+                    <img src="assets/img/tour_type_img3.jpg" alt="tour img" class="img-fluid">
+                  </div>
+                  <h2 data-aos="fade-up" data-aos-delay="200" class="tour_type-title">Beaches and Islands</h2>
+                  <a href="#"></a>
+                </div>
+                <!-- End of single tour carousel -->
+              </div>
+              <!-- End of tour type carousel -->
+            </div>
+            <!-- End of col -->
+          </div>
+          <!-- End of row -->
+        </div>
+        <!-- End of container -->
+      </div>
+      <!-- End of tour type section -->
+
+      <div class="fact-section cus_section-padding area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="fact-boxes area">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div data-aos="fade-up" class="fact-box text-center">
+                      <img src="assets/img/fact_icon1.png" alt="fact icon">
+                      <h2 class="fact_box-no counter">75</h2>
+                      <h2 class="fact_box-title">Country</h2>
+                    </div>
+                    <!-- End of fact box -->
+                    <div data-aos="fade-up" data-aos-delay="100" class="fact-box text-center">
+                      <img src="assets/img/fact_icon2.png" alt="fact icon">
+                      <h2 class="fact_box-no counter">354</h2>
+                      <h2 class="fact_box-title">Destinations</h2>
+                    </div>
+                    <!-- End of fact box -->
+                  </div>
+                  <!-- End of col -->
+                  <div class="col-md-6">
+                    <div data-aos="fade-up" data-aos-delay="200" class="fact-box text-center top_space">
+                      <img src="assets/img/fact_icon3.png" alt="fact icon">
+                      <h2 class="fact_box-no counter">1250</h2>
+                      <h2 class="fact_box-title">Tours</h2>
+                    </div>
+                    <!-- End of fact box -->
+                    <div data-aos="fade-up" data-aos-delay="300" class="fact-box text-center">
+                      <img src="assets/img/fact_icon1.png" alt="fact icon">
+                      <h2 class="fact_box-no counter">4600</h2>
+                      <h2 class="fact_box-title">Tourists</h2>
+                    </div>
+                    <!-- End of fact box -->
+                  </div>
+                  <!-- End of col -->
+                </div>
+                <!-- End of inner row -->
+              </div>
+              <!-- End of fact boxes -->
+            </div>
+            <!-- End of col -->
+            <div class="col-lg-6 offset-lg-1 align-self-center">
+              <div class="fact_content">
+                <div class="section-header text-center left">
+                  <h2 data-aos="fade-up" class="section-heading heading-bar">Facts</h2>
+                </div>
+                <!-- End of section header -->
+                <p data-aos="fade-up" data-aos-delay="100">Travel in the Middle Ages offered hardships and challenges, however, it was important to the economy and to society. The wholesale sector depended (for example) on merchants dealing with/through caravans or sea-voyagers, end-user retailing.</p>
+              </div>
+              <!-- End of fact content -->
+            </div>
+            <!-- End of col -->
+          </div>
+          <!-- End of row -->
+        </div>
+        <!-- End of container -->
+      </div>
+      <!-- End of fact section -->
+
+      <div id="review" class="review_section cus_section-padding area">
+        <div class="container">
+          <div class="section-header text-center left">
+            <h2 data-aos="fade-up" class="section-heading heading-bar">User Reviews</h2>
+          </div>
+          <!-- End of section header -->
+          <div data-aos="fade-up" data-aos-delay="100" class="review_carousel site_carousel owl-carousel">
+            <div class="review_slides">
+              <p>It was important to the economy and society. Sector depended (for example) on the merchants dealing with caravans, end-user retailing.</p>
+              <div class="review_author">
+                <img src="assets/img/author_img1.jpg" alt="author img">
+                <div class="author-info">
+                  <h2 class="author-name">John Carter</h2>
+                  <h2 class="author-des">Data Scientist, SilverCloud</h2>
+                </div>
+                <!-- End of author info -->
+              </div>
+              <!-- End of review author -->
+            </div>
+            <!-- End of review slides -->
+            <div class="review_slides">
+              <p>It was important to the economy and society. Sector depended (for example) on the merchants dealing with caravans, end-user retailing.</p>
+              <div class="review_author">
+                <img src="assets/img/author_img2.jpg" alt="author img">
+                <div class="author-info">
+                  <h2 class="author-name">John Carter</h2>
+                  <h2 class="author-des">Data Scientist, SilverCloud</h2>
+                </div>
+                <!-- End of author info -->
+              </div>
+              <!-- End of review author -->
+            </div>
+            <!-- End of review slides -->
+            <div class="review_slides">
+              <p>It was important to the economy and society. Sector depended (for example) on the merchants dealing with caravans, end-user retailing.</p>
+              <div class="review_author">
+                <img src="assets/img/author_img3.jpg" alt="author img">
+                <div class="author-info">
+                  <h2 class="author-name">John Carter</h2>
+                  <h2 class="author-des">Data Scientist, SilverCloud</h2>
+                </div>
+                <!-- End of author info -->
+              </div>
+              <!-- End of review author -->
+            </div>
+            <!-- End of review slides -->
+            <div class="review_slides">
+              <p>It was important to the economy and society. Sector depended (for example) on the merchants dealing with caravans, end-user retailing.</p>
+              <div class="review_author">
+                <img src="assets/img/author_img1.jpg" alt="author img">
+                <div class="author-info">
+                  <h2 class="author-name">John Carter</h2>
+                  <h2 class="author-des">Data Scientist, SilverCloud</h2>
+                </div>
+                <!-- End of author info -->
+              </div>
+              <!-- End of review author -->
+            </div>
+            <!-- End of review slides -->
+            <div class="review_slides">
+              <p>It was important to the economy and society. Sector depended (for example) on the merchants dealing with caravans, end-user retailing.</p>
+              <div class="review_author">
+                <img src="assets/img/author_img2.jpg" alt="author img">
+                <div class="author-info">
+                  <h2 class="author-name">John Carter</h2>
+                  <h2 class="author-des">Data Scientist, SilverCloud</h2>
+                </div>
+                <!-- End of author info -->
+              </div>
+              <!-- End of review author -->
+            </div>
+            <!-- End of review slides -->
+            <div class="review_slides">
+              <p>It was important to the economy and society. Sector depended (for example) on the merchants dealing with caravans, end-user retailing.</p>
+              <div class="review_author">
+                <img src="assets/img/author_img3.jpg" alt="author img">
+                <div class="author-info">
+                  <h2 class="author-name">John Carter</h2>
+                  <h2 class="author-des">Data Scientist, SilverCloud</h2>
+                </div>
+                <!-- End of author info -->
+              </div>
+              <!-- End of review author -->
+            </div>
+            <!-- End of review slides -->
+          </div>
+          <!-- End of review carousel -->
+        </div>
+        <!-- End of container -->
+      </div>
+      <!-- End of review section -->
+
+      <div class="blog_section cus_section-padding area">
+        <div class="container">
+          <div class="section-header text-center left">
+            <h2 data-aos="fade-up" class="section-heading heading-bar">Blogs</h2>
+          </div>
+          <!-- End of section header -->
+          <div class="blog_posts-carousel site_carousel owl-carousel">
+            <div data-aos="fade-up" class="blog_posts-slides">
+              <div class="blog_posts-img">
+                <img src="assets/img/blog_post1.jpg" alt="post img" class="img-fluid">
+              </div>
+              <!-- End of img -->
+              <ul class="post-info">
+                <li><a href="#">by Jack McDonnell</a></li>
+                <li><a href="#">June 07, 2018</a></li>
+              </ul>
+              <h2 class="post-title"><a href="#">How to (legally) stay in India for more than 90 days</a></h2>
+            </div>
+            <!-- End of blog posts slides -->
+            <div data-aos="fade-up" data-aos-delay="100" class="blog_posts-slides">
+              <div class="blog_posts-img">
+                <img src="assets/img/blog_post2.jpg" alt="post img" class="img-fluid">
+              </div>
+              <!-- End of img -->
+              <ul class="post-info">
+                <li><a href="#">by Alice Price</a></li>
+                <li><a href="#">June 03, 2018</a></li>
+              </ul>
+              <h2 class="post-title"><a href="#">How you can help create the next generation of responsible travelers</a></h2>
+            </div>
+            <!-- End of blog posts slides -->
+            <div data-aos="fade-up" data-aos-delay="200" class="blog_posts-slides">
+              <div class="blog_posts-img">
+                <img src="assets/img/blog_post3.jpg" alt="post img" class="img-fluid">
+              </div>
+              <!-- End of img -->
+              <ul class="post-info">
+                <li><a href="#">by Amber Boyd</a></li>
+                <li><a href="#">June 11, 2018</a></li>
+              </ul>
+              <h2 class="post-title"><a href="#">How our contest winner heather is traveling America on a budget</a></h2>
+            </div>
+            <!-- End of blog posts slides -->
+            <div class="blog_posts-slides">
+              <div class="blog_posts-img">
+                <img src="assets/img/blog_post1.jpg" alt="post img" class="img-fluid">
+              </div>
+              <!-- End of img -->
+              <ul class="post-info">
+                <li><a href="#">by Jack McDonnell</a></li>
+                <li><a href="#">June 07, 2018</a></li>
+              </ul>
+              <h2 class="post-title"><a href="#">How to (legally) stay in India for more than 90 days</a></h2>
+            </div>
+            <!-- End of blog posts slides -->
+            <div class="blog_posts-slides">
+              <div class="blog_posts-img">
+                <img src="assets/img/blog_post2.jpg" alt="post img" class="img-fluid">
+              </div>
+              <!-- End of img -->
+              <ul class="post-info">
+                <li><a href="#">by Alice Price</a></li>
+                <li><a href="#">June 03, 2018</a></li>
+              </ul>
+              <h2 class="post-title"><a href="#">How you can help create the next generation of responsible travelers</a></h2>
+            </div>
+            <!-- End of blog posts slides -->
+            <div class="blog_posts-slides">
+              <div class="blog_posts-img">
+                <img src="assets/img/blog_post3.jpg" alt="post img" class="img-fluid">
+              </div>
+              <!-- End of img -->
+              <ul class="post-info">
+                <li><a href="#">by Amber Boyd</a></li>
+                <li><a href="#">June 11, 2018</a></li>
+              </ul>
+              <h2 class="post-title"><a href="#">How our contest winner heather is traveling America on a budget</a></h2>
+            </div>
+            <!-- End of blog posts slides -->
+          </div>
+          <!-- End of Blog posts carousel -->
+        </div>
+        <!-- End of container -->
+      </div>
+      <!-- End of Blog posts section -->
+
+    </main>
+    <!--End of main-->
+
+    <footer class="area">
+      <div class="footer_section cus_section-padding area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2">
+              <div data-aos="fade-up" class="footer_logo">
+                <a href="index.html"><img src="assets/img/footer_logo.png" alt="footer logo"></a>
+              </div>
+            </div>
+            <!-- End of col -->
+            <div class="col-lg-3">
+              <div data-aos="fade-up" data-aos-delay="100" class="footer_widget">
+                <h2 class="footer_widget-title">Popular Destinations</h2>
+                <ul class="widget_quicklink">
+                  <li><a href="#">India</a></li>
+                  <li><a href="#">Australia</a></li>
+                  <li><a href="#">England</a></li>
+                  <li><a href="#">Switzerland</a></li>
+                </ul>
+              </div>
+              <!-- End of footer widget -->
+            </div>
+            <!-- End of col -->
+            <div class="col-lg-3">
+              <div data-aos="fade-up" data-aos-delay="200" class="footer_widget">
+                <h2 class="footer_widget-title">Contact</h2>
+                <ul class="widget_quicklink">
+                  <li><i class="fas fa-phone"></i> <a href="tel:2834429619">(283) 442-9619</a></li>
+                  <li><i class="fas fa-envelope"></i> <a href="mailto:contact@mopo.com">contact@mopo.com</a></li>
+                  <li><i class="fas fa-map-marker-alt"></i><span>658 Parker Hill, East Pamela, MS 645</span></li>
+                </ul>
+              </div>
+              <!-- End of footer widget -->
+            </div>
+            <!-- End of col -->
+            <div class="col-lg-4">
+              <div data-aos="fade-up" data-aos-delay="300" class="footer_widget">
+                <h2 class="footer_widget-title">Subscribe Our Newsletter</h2>
+                <div class="footer_subscribe-form">
+                  <form action="#">
+                    <input type="email" class="form-control" placeholder="Your email address">
+                    <button type="submit" name="button" class="subscribe_btn">Submit</button>
+                  </form>
+                </div>
+                <!-- End of footer form -->
+                <div class="footer_social-link">
+                  <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  </ul>
+                </div>
+                <!-- End of footer social link -->
+              </div>
+              <!-- End of footer widget -->
+            </div>
+            <!-- End of col -->
+          </div>
+          <!-- End of row -->
+        </div>
+        <!--End of container-->
+      </div>
+      <!--End of footer-->
+    </footer>
+    <!--End of footer-->
+
+    <!-- scroll to top -->
+    <div class="scroll_to-top">
+      <i class="fas fa-fighter-jet"></i>
+    </div>
+    <!-- scroll to top -->
+
+
+    <!-- Jquery 1.10.2 -->
+    <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <!-- Animated on Scroll JS -->
+    <script src="assets/js/aos.js"></script>
+    <!-- Jquery UI JS -->
+    <script src="assets/js/jquery-ui.js"></script>
+    <!-- Waypoints JS -->
+    <script src="assets/js/waypoints-2.0.3.min.js"></script>
+    <!-- CounterUp JS -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Nice Select JS -->
+    <script src="assets/js/jquery.nice-select.js"></script>
+    <!-- Owl carousel JS -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+  </body>
+  <!-- End of body -->
+</html>

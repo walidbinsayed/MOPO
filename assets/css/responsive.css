@@ -1,0 +1,175 @@
+@media(max-width:1199px){
+  .hero-title {
+  	padding: 0 150px;
+  }
+
+}
+/* End of 1199px(Laptop) media CSS */
+
+
+@media(max-width:991px){
+  .header-menu {
+    background: rgba(0,0,0,0.95);
+    margin: 7px 0;
+    padding: 15px;
+  }
+  .header-menu li a {
+    line-height: 15px;
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+  .header-menu .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    margin: 7px 0 7px 30px;
+    background: rgba(254, 191, 16, 0.1);
+  }
+  .header-menu .dropdown-menu li a {
+    background: none;
+    color: #ffffff;
+  }
+  .hero-title {
+  	padding: 0;
+  }
+  .home_booking-form .inp-group {
+  	margin: 0 0 15px;
+  }
+  .popular-tour-boxes .place-img img {
+  	height: 300px;
+  }
+  .destination_img img {
+  	height: 430px;
+  }
+  .fact_content .section-heading {
+  	margin-top: 30px !important;
+  }
+  .footer_section.cus_section-padding {
+  	padding: 35px 0 60px 0;
+  }
+  .footer_widget-title {
+    margin: 0 0 15px;
+  }
+  .widget_quicklink li a {
+    padding: 2px 0;
+  }
+  .footer_widget {
+    margin: 25px 0;
+  }
+  .footer_logo {
+    margin: 0 0 20px;
+  }
+  .blog_posts-section .col-md-8,
+  .blog_posts-section .col-md-4 {
+  	max-width: 100%;
+  	flex: 100%;
+  }
+  .site_pagination {
+  	margin: 25px 0;
+  }
+
+
+}
+/* End of 991px(Tab) media CSS */
+
+
+@media(max-width:767px){
+  .hero-title {
+  	font-size: 35px;
+  	line-height: 45px;
+  	margin-bottom: 25px !important;
+  }
+  .section-heading {
+  	margin: 20px 0 !important;
+  }
+  .popular-tour-boxes .tour-info .tour-title {
+  	margin: 0 0 10px;
+  }
+  .why_us-section.cus_section-padding {
+  	padding-top: 50px;
+  }
+  .why_us-box {
+  	margin: 30px 0;
+  }
+  .destination_content-box.large .destination_img img, .destination_img img {
+  	height: 250px;
+  }
+  .destination_section.cus_section-padding {
+  	padding-bottom: 30px;
+  }
+  .tour_type-section.cus_section-padding {
+  	padding: 70px 0;
+  }
+  .fact-box.top_space {
+  	margin-top: 15px;
+  }
+  .site_carousel {
+  	margin-top: 25px;
+  }
+  .review_slides {
+  	padding: 30px 15px;
+  }
+  .review_section .section-heading {
+  	margin: 20px 0 !important;
+  }
+  .fact-section .row {
+    flex-direction: column-reverse;
+  }
+  .fact_content .section-heading {
+    margin: 0 0 25px !important;
+  }
+  .fact_content {
+    margin: 0 0 30px;
+  }
+  .blog_section .section-heading {
+  	margin-top: 0 !important;
+  }
+  .blog_posts-img {
+  	margin: 0 0 20px 0;
+  }
+  .post-info {
+  	margin: 0 0 5px;
+  }
+  .post-title a {
+  	line-height: 25px;
+  }
+  .about_img {
+    position: static;
+  }
+  .about_content {
+    margin: 0;
+    padding: 30px 15px;
+    min-height: auto;
+  }
+  .scroll_to-top {
+  	bottom: 25px;
+  	right: 25px;
+  }
+  .blog_sidebar {
+  	margin: 50px 0 0;
+  }
+  .contact_us-section {
+    padding: 50px 0 0;
+  }
+  .address_block {
+    margin: 0 0 30px;
+  }
+  .form-control {
+    margin: 0 0 15px;
+  }
+  .map_block iframe {
+    height: 350px;
+  }
+  .footer_subscribe-form .form-control {
+  	padding: 14px;
+  }
+
+
+}
+/* End of 767px(Mobile) media CSS */
+
+
+@media(max-width:320px){
+
+
+}
+/* End of 320px(Small Mobile) media CSS */
